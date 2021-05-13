@@ -13,3 +13,17 @@ was necessary.
 
 Rather than having to connect it to a PC a ESP8266 with an RS-232 breakout board is used.
 Since the 3.5mm jack outputs 12V we can use that to power it via a step-down voltage regulator.
+
+
+## Dependencies
+
+```
+Name                             Installed
+
+DoubleResetDetector              1.0.3    
+Effortless-SPIFFS                2.1.4    
+NTPClient                        3.2.0    
+Time                             1.6      
+Timezone                         1.2.4    
+WiFiManager                      0.16.0   
+```
