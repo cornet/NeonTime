@@ -226,7 +226,7 @@ void read_config() {
 
 void update_clock() {
     timeClient.update();
-    setTime(timeClient.getEpochTime());
+    setTime(UK.toLocal(timeClient.getEpochTime()));
 
     // timeset = 081220212123
     //           DDMMYYHHMMSS
